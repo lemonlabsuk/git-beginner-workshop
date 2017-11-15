@@ -1,4 +1,4 @@
-Scala Beginner Workshop
+Git Beginner Workshop
 =======================
 
-Slide deck for the NET-A-PORTER scala beginner workshop. View it [here](http://net-a-porter.github.io/scala-beginner-workshop)
+Slide deck for the LemonLabs Git beginner workshop. View it [here](http://lemonlabsuk.github.io/git-beginner-workshop)

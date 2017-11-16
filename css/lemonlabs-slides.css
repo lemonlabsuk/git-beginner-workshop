@@ -169,6 +169,10 @@ section.step {
   margin: 20px;
 }
 
+.step li img {
+  vertical-align: bottom;
+}
+
 .step span {
   background-color: #f5f8ee;
   color: #777;
@@ -210,7 +214,6 @@ div.step:after {
 
   text-transform: uppercase;
 
-  padding: 39px 0px;
   margin-top: 40px;
 
   color: #fff;

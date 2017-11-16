@@ -132,7 +132,7 @@ h3 {
 
     background-color: #fff;
 
-    width: 1280px;
+    width: 2280px;
     min-height: 720px;
     margin: 0px auto;
 
@@ -147,6 +147,10 @@ h3 {
 
 .step header {
   background-color: #82cb45;
+}
+
+.step .step-content {
+    margin: 0 500px;
 }
 
 section.step {

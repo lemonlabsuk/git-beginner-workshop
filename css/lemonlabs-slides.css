@@ -92,6 +92,24 @@ h1 {
     margin-bottom: 75px;
 }
 
+.step span.key {
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #82cb45;
+  margin-left: 8px;
+  font-size: 21px;
+  margin-right: 10px;
+  border: unset;
+}
+
+.step p.subtle {
+  margin: 40px;
+  font-size: 35px;
+  margin-top: 65px;
+  color: #82cb45;
+}
+
 em {
     font-style: italic;
 }
@@ -125,6 +143,7 @@ h3 {
 #logo {
   width: 100px;
   margin: 25px;
+  margin-bottom: 10px;
 }
 
 .step {

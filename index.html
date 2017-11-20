@@ -51,7 +51,7 @@
     <div class="step" data-x="2000">
         <h2>How Git Works</h2>
         <div class="step-content" style="text-align: center;">
-            <img src="images/how-git-works.png" style="width: 1400px; margin-top: 20px; margin-left: -115px;" />
+            <img src="images/how-git-works.svg" style="width: 1400px; margin-left: -100px;" />
         </div>
     </div>
 
@@ -122,7 +122,8 @@
       <div class="step-content">
           <p class="summary">Commits a change, but doesn't send it to the server!</p>
           <ol>
-              <li>Make a new file <span>firstname.surname.txt</span> with the contents <span>I love Git!</span></li>
+              <li>Make a new file <span>firstname.surname.txt</span>, using *your* name e.g. <span>joe.bloggs.txt</span></li>
+              <li>Make the contents of the file <span>I love Git!</span></li>
               <li>In Github Desktop, make sure it is checked in the <span>Changes</span> tab</li>
               <li>Enter a summary, description and click <span>Commit to master</span></li>
           </ol>
@@ -172,10 +173,36 @@
       <div class="step-content">
           <p class="summary">Pull does a fetch and a merge</p>
           <ol>
-              <li>In Github Desktop, click the <span>Repository &gt; Pull</span> and <span>Repository &gt; Push</span> again</li>
+              <li>In Github Desktop, click <span>Repository &gt; Pull</span> and <span>Repository &gt; Push</span> again</li>
               <li style="color:#f00;">You'll need to do this a few times, if there are many people!</li>
               <li>In Github, click the <img style="margin: 8px;" src="images/github-commits-button.png" /> button</li>
               <li>You should now see your commit! and everyone elses' in the room!</li>
+          </ol>
+      </div>
+    </div>
+
+    <div class="step" data-x="22000">
+      <h2>Git Branch<em> - it's like svn copy</em></h2>
+      <div class="step-content">
+          <p class="summary">Creates a branch in your local repo</p>
+          <ol>
+              <li>In Github Desktop, click <span>Branch &gt; New Branch</span></li>
+              <li>Name the branch <span>firstname-surname</span>, using *your* name e.g. <span>joe-bloggs</span></li>
+              <li>Add the line <span>I love branches!</span> to the file you created earlier</li>
+              <li>Click <span>Repository &gt; Push</span>. This will push your branch+commit to the server!</li>
+              <li>In Github, click the <img style="margin: -3px; height: 50px;" src="images/github-branch-button.png" /> button, and you should see your branch</li>
+          </ol>
+      </div>
+    </div>
+
+    <div class="step" data-x="24000">
+      <h2>Pull Requests<em> - like nothing seen before in svn</em></h2>
+      <div class="step-content">
+          <p class="summary">Request a review of your changes, before they're merged to master</p>
+          <ol>
+              <li>In Github click the <img style="height: 50px; margin: -3px;" src="images/github-pr-button.png" /> button</li>
+              <li>Leave <span>base</span> as master, but change <span>compare</span> to your branch</li>
+              <li>Click <img style="height: 50px; margin: -3px;" src="images/github-create-pr-button.png" /></li>
           </ol>
       </div>
     </div>
